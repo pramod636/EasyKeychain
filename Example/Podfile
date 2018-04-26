@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EasyKeychain_Example' do
+  pod 'EasyKeychain', :path => '../'
+
+  target 'EasyKeychain_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end

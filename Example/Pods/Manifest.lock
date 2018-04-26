@@ -1,0 +1,23 @@
+PODS:
+  - EasyKeychain (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - EasyKeychain (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+EXTERNAL SOURCES:
+  EasyKeychain:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EasyKeychain: b9f93a02afd6ad3508ca882aaeef3086cca0cd26
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 6e5ed77731d353818418620c1aa78c87be4d455f
+
+COCOAPODS: 1.4.0
